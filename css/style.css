@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto|Roboto+Condensed');
+body{	
+	margin: 0;
+	padding: 0;
+	color: #999;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+*{
+	transition: 0.04s;
+	-webkit-transition: 0.04s;
+	-moz-transition: 0.04s;
+}
+
+
+#top-header{
+	background-color: #F8F8F8;
+	padding-top: 10px;
+}
+
+.address {
+
+}
+
+.address li{
+	font-size:13px;
+    margin-right: 15px;
+	
+}
+.address li i {
+    color: #42b061;
+}
+.address li select{
+	border: 0;
+}
+.address li:hover{
+	color: #42b061;}
+.signup{
+	display: inline-block;
+}
+.signup li{
+	color: #42b061;
+	font-size: 16px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.signup li a{
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #999;
+}
+.signup li a:hover{
+	color: #42b061;
+}
+.signup  i{
+	color: #42b061;
+	font-size: 16px;
+}
+
+.signup li span{
+	color: #e1e1e1;
+}
+.social{
+	display:inline-block;
+	margin-left: 60px;
+}
+
+.social li{
+
+}
+.social li a{
+	background: #E1E1E1;
+	color: #42b061;
+	width: 16px;
+	height: 16px;
+	display: block;
+	text-align: center;
+	border-radius:3px;
+	font-size: 12px;
+
+}
+.social li a:hover{
+	background: #42b061;
+	color: #E1E1E1;
+
+}
+ .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 30px 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid rgba(153, 153, 153, 0.31);
+}
+.navbar-brand{
+	height: auto !important;
+	padding: 0;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #999;
+    font-weight: 900;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.navbar-default .navbar-nav>li>a:hover{ color: #42b061;}
+.navbar-default .navbar-nav>li>a:frist-child:after{color:#42b061;}
+
+.search{
+	padding: 8px 15px;
+
+}
+.search li{
+
+
+}
+.search li input{
+	border-radius: 0;
+	width: auto;
+}
+.carousel-caption {
+	text-align: left;
+	left: 12%;
+	top:50%;
+	transform: translateY(-50%);
+
+}
+
+.carousel-caption h4{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 72px;
+	color: #42b061;}
+
+.carousel-caption h2{
+	font-size: 55px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.carousel-caption p{
+	max-width: 500px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:600;
+
+}
+.carousel-caption a{
+
+}
+.btn-custom{
+	text-transform: uppercase;
+	color: #fff;
+	padding: 15px 30px;
+	background: #42b061;
+	margin-right: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+
+}
